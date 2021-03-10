@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://imxiaow.github.io/sitemap.xml
+Host: https://imxiaow.github.io
