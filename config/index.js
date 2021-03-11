@@ -8,8 +8,8 @@ module.exports = {
   siteLanguage: "en_US",
   siteIcon: "content/favicon.png", // Relative to gatsby-config file
   seoTitleSuffix: "Imprint - {Xiao Wang Porfolio}", // SEO title syntax will be e.g. "Imprint - {seoTitleSuffix}"
-  useCookieBar: false, // If you use Google Analytics and want to be GDPR-compliant, set it to true
-  googleAnalyticsTrackingId: "", // e.g. UA-XXXXXX-X
+  useCookieBar: true, // If you use Google Analytics and want to be GDPR-compliant, set it to true
+  googleAnalyticsTrackingId: "G-544VYPNKZG", // e.g. UA-XXXXXX-X
 
   // -- THEME SETTINGS -----
   colors: {
@@ -99,9 +99,6 @@ module.exports = {
     {
       name: "Privacy",
       url: "/privacy",
-    },
-    {
-      name: "All Rights Reserved",
     },
   ],
 }
