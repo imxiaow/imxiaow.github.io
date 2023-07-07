@@ -121,6 +121,13 @@ const Header = () => {
     <StyledHeader initial={{ opacity: 0, y: -10 }} animate={controls}>
       {/* add blur class to body when sidebar is opened */}
       <Helmet bodyAttributes={{ class: open ? "blur" : "" }} />
+      <Helmet>
+        <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+        <script
+          src="https://mediafiles.botpress.cloud/573fcb18-f745-4a45-ae69-afe904ea66da/webchat/config.js"
+          defer
+        ></script>
+      </Helmet>
       <StyledContentWrapper>
         <Link to="/" aria-label="home">
           <Logo color="primary" size="2rem" />
