@@ -42,11 +42,11 @@ const StyledContentWrapper = styled(ContentWrapper)`
     }
     .image-content {
       width: 100%;
-      max-width: 18rem;
-      margin-top: 4rem;
+      max-width: 24rem;
+      margin-top: 10rem;
       margin-left: 0;
       @media (min-width: ${({ theme }) => theme.breakpoints.sm}) {
-        margin-left: 2rem;
+        margin-left: 4rem;
       }
     }
     .about-author {
@@ -55,7 +55,7 @@ const StyledContentWrapper = styled(ContentWrapper)`
       filter: grayscale(20%) contrast(1) brightness(90%);
       transition: all 0.3s ease-out;
       &:hover {
-        filter: grayscale(50%) contrast(1) brightness(90%);
+        // filter: grayscale(50%) contrast(1) brightness(90%);
         transform: translate3d(0px, -0.125rem, 0px);
         box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.32);
       }
