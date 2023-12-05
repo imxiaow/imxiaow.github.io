@@ -96,7 +96,7 @@ const StyledInterests = styled.div`
 
   .interest {
     width: 15.625rem;
-    height: 3rem;
+    height: 4.4rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
