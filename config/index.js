@@ -68,7 +68,7 @@ module.exports = {
     },
     {
       name: "Email",
-      url: "mailto:xiaow.wang@mail.utoronto.ca",
+      url: "mailto:xiaow9596@gmail.com",
     },
   ],
 
@@ -91,7 +91,7 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "Xiao_Wang_Resume_2023_FV.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "Xiao_Wang_Resume_2024_FV_newEmail.pdf", // the file has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
